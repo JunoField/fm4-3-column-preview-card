@@ -73,12 +73,30 @@ body {
 @media only screen and (min-width: 600px) {
   #cards {
     flex-direction: horizontal;
-    width: auto;
+    width: 920px;
     display: flex;
   }
 
   .card {
-    width: 309px;
+    width: 33.3%;
+  }
+
+  .card p {
+    margin: 25px auto auto;
+  }
+
+  .card button {
+    margin: 82px auto 0 0;
+  }
+
+  .card-first {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+
+  .card-last {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
   }
 }
 

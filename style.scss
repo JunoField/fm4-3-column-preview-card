@@ -80,11 +80,28 @@ body{
     #cards{
         display: flex;
         flex-direction: horizontal;
-        width: auto;
+        width: 920px;
     }
 
     .card{
-        width: 309px;
+        width: 33.3%;
+
+        p{
+            margin: 25px auto auto auto;
+        }
+
+        button{
+            margin: 82px auto 0px 0px;
+        }
+    }
+
+    .card-first{
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+    .card-last{
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
     }
 }
 
