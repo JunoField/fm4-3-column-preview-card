@@ -2,7 +2,6 @@
   "name": "fm4-3-column-preview-card",
   "version": "1.0.0",
   "description": "Frontend Mentor 3-column preview card attempt",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "shx rm -rf dist/*",
@@ -20,7 +19,8 @@
   },
   "homepage": "https://github.com/JunoField/fm4-3-column-preview-card#readme",
   "dependencies": {
-    "parcel": "^2.5.0"
+    "parcel": "^2.5.0",
+    "shx": "^0.3.4"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.5.0"
