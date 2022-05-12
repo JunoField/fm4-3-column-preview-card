@@ -1,0 +1,25 @@
+{
+  "name": "fm4-3-column-preview-card",
+  "version": "1.0.0",
+  "description": "Frontend Mentor 3-column preview card attempt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "shx rm -rf dist/*",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url https://junofield.github.io/fm4-3-column-preview-card"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JunoField/fm4-3-column-preview-card.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JunoField/fm4-3-column-preview-card/issues"
+  },
+  "homepage": "https://github.com/JunoField/fm4-3-column-preview-card#readme",
+  "dependencies": {
+    "parcel": "^2.5.0"
+  }
+}
