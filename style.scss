@@ -9,12 +9,8 @@ body{
 }
 
 #cards{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     width: 330px;
-    
+    margin: 89px auto auto auto;
 }
 
 .card{
@@ -48,13 +44,32 @@ body{
 
 .card-top{
     border-top-left-radius: 10px;
-    border-top-right-radius: 10px;;
+    border-top-right-radius: 10px;
+}
+
+.card-bottom{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 }
 
 #card-sedans{
-    
     background-color: $brightOrange;
     button{
         color: $brightOrange;
+    }
+}
+
+#card-suvs{
+    background-color: $darkCyan;
+    button{
+        color: $darkCyan;
+    }
+}
+
+#card-luxury{
+    background-color: $veryDarkCyan;
+    button{
+        color: $veryDarkCyan;
     }
 }
