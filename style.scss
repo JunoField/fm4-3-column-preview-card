@@ -80,7 +80,7 @@ body{
     #cards{
         display: flex;
         flex-direction: horizontal;
-        width: 920px;
+        width: 919px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -89,14 +89,14 @@ body{
     }
 
     .card{
-        width: 33.3%;
+        width: 33.333%;
 
         p{
             margin: 25px auto auto auto;
         }
 
         button{
-            margin: 82px auto 0px 0px;
+            margin: 83px auto -3px 0px;
         }
     }
 

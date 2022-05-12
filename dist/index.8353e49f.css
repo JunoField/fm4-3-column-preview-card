@@ -73,7 +73,7 @@ body {
 @media only screen and (min-width: 600px) {
   #cards {
     flex-direction: horizontal;
-    width: 920px;
+    width: 919px;
     margin: auto;
     display: flex;
     position: absolute;
@@ -83,7 +83,7 @@ body {
   }
 
   .card {
-    width: 33.3%;
+    width: 33.333%;
   }
 
   .card p {
@@ -91,7 +91,7 @@ body {
   }
 
   .card button {
-    margin: 82px auto 0 0;
+    margin: 83px auto -3px 0;
   }
 
   .card-first {
