@@ -4,7 +4,7 @@ body {
 
 #cards {
   width: 330px;
-  margin: 89px auto auto;
+  margin: 89px auto;
 }
 
 .card {
@@ -68,6 +68,13 @@ body {
 
 #card-luxury button {
   color: #004241;
+}
+
+.attribution {
+  float: right;
+  margin: auto 0 0 auto;
+  font-family: Lexend Deca, sans-serif;
+  font-size: 8px;
 }
 
 /*# sourceMappingURL=index.8353e49f.css.map */

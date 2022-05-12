@@ -10,7 +10,7 @@ body{
 
 #cards{
     width: 330px;
-    margin: 89px auto auto auto;
+    margin: 89px auto 89px auto;
 }
 
 .card{
@@ -72,4 +72,11 @@ body{
     button{
         color: $veryDarkCyan;
     }
+}
+
+.attribution{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 8px;
+    margin: auto 0px 0px auto;
+    float: right;
 }
