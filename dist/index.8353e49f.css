@@ -1,0 +1,32 @@
+body {
+  background-color: #f2f2f2;
+}
+
+#cards {
+  width: 330px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  padding: 50px;
+}
+
+.card h1 {
+  color: #f2f2f2;
+  font-family: Big Shoulders Display, cursive;
+  font-size: 40px;
+}
+
+.card p {
+  color: #ffffffbf;
+  font-family: Lexend Deca, sans-serif;
+}
+
+#card-sedans {
+  background-color: #e38826;
+}
+
+/*# sourceMappingURL=index.8353e49f.css.map */

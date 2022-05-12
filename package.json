@@ -21,5 +21,8 @@
   "homepage": "https://github.com/JunoField/fm4-3-column-preview-card#readme",
   "dependencies": {
     "parcel": "^2.5.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0"
   }
 }
