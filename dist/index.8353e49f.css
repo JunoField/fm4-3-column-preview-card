@@ -36,12 +36,12 @@ body {
   font-size: 15px;
 }
 
-.card-top {
+.card-first {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-.card-bottom {
+.card-last {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -68,6 +68,18 @@ body {
 
 #card-luxury button {
   color: #004241;
+}
+
+@media only screen and (min-width: 600px) {
+  #cards {
+    flex-direction: horizontal;
+    width: auto;
+    display: flex;
+  }
+
+  .card {
+    width: 309px;
+  }
 }
 
 .attribution {

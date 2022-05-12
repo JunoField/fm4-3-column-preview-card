@@ -42,12 +42,12 @@ body{
     }
 }
 
-.card-top{
+.card-first{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-.card-bottom{
+.card-last{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 
@@ -73,6 +73,25 @@ body{
         color: $veryDarkCyan;
     }
 }
+
+
+//Desktop Display
+@media only screen and (min-width: 600px){
+    #cards{
+        display: flex;
+        flex-direction: horizontal;
+        width: auto;
+    }
+
+    .card{
+        width: 309px;
+    }
+}
+
+
+
+
+
 
 .attribution{
     font-family: 'Lexend Deca', sans-serif;
