@@ -74,7 +74,12 @@ body {
   #cards {
     flex-direction: horizontal;
     width: 920px;
+    margin: auto;
     display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .card {
@@ -97,6 +102,12 @@ body {
   .card-last {
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0;
+  }
+
+  .attribution {
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 }
 
