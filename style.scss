@@ -40,6 +40,12 @@ body{
         font-family: 'Lexend Deca', sans-serif;
         font-size: 15px;
     }
+
+    button:hover{
+        border: 2px solid $veryLightGrey;
+
+    }
+
 }
 
 .card-first{
@@ -58,6 +64,10 @@ body{
     button{
         color: $brightOrange;
     }
+    button:hover{
+        color: $veryLightGrey;
+        background-color: $brightOrange;
+    }
 }
 
 #card-suvs{
@@ -65,12 +75,20 @@ body{
     button{
         color: $darkCyan;
     }
+    button:hover{
+        color: $veryLightGrey;
+        background-color: $darkCyan;
+    }
 }
 
 #card-luxury{
     background-color: $veryDarkCyan;
     button{
         color: $veryDarkCyan;
+    }
+    button:hover{
+        color: $veryLightGrey;
+        background-color: $veryDarkCyan;
     }
 }
 
